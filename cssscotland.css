@@ -1,0 +1,93 @@
+body{ 
+	background-color:#2cd6e2;
+}
+p { 
+	text-align:center;
+	font-family:Verdana;
+	font-style:italic;
+	font-weight:bold;
+	color:#000000;
+	padding: 5px;
+}
+h1{
+	text-align:center;
+	font-style:Arial;
+	font-size: 45px;
+	text-decoration: underline;
+	color: #000000;
+	padding: 7px;
+}
+.heroImage {
+	background: url("heroscotland.jpg");
+	width: 1307px;
+	height: 134px;
+	background-position: center top;
+	background-repeat: no-repeat;
+	position: relative;
+	margin-bottom:5px;
+	padding: 1px;
+}
+.heroContents {
+	text-align: center;
+	color: white;
+}
+.webbutton {
+	background-color: rgb(33, 0, 124);
+	border: none;
+	color: white;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 10px;
+}
+p.solid {
+	font-weight: 600;
+}
+.text-box{
+	border: #090875 solid 10px;
+	border-radius: 25px;
+	background: #ffffff;
+	margin-bottom: 20px;
+}
+nav {
+	margin: 5px;
+	position: relative;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li {
+
+	display: inline-block;
+	position: relative;
+	padding: 10px;
+	margin-left: 15px;
+	text-align: center;
+}
+nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #06047a;
+	font-size: large;
+	padding: 20px;
+	font-style:Arial;
+}
+.current-page{
+	background-color: #32c5ca;
+}
+.nav-box :hover {
+
+	animation: hover-effect 2000ms infinite;
+}
+@keyframes hover-effect {
+	0%, 100% {
+		background-color: #32c5ca;
+	}
+	50% {
+		background-color: #e6e6fa00;
+	}
+}
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
